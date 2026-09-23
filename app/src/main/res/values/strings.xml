@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fayl Qalqoni</string>
+
+    <!-- Bildirishnoma kanallari -->
+    <string name="channel_alerts_name">Xavf ogohlantirishlari</string>
+    <string name="channel_alerts_desc">Shubhali yoki xavfli fayl/ilova aniqlanganda ko\'rsatiladi</string>
+    <string name="channel_service_name">Fon monitoringi</string>
+    <string name="channel_service_desc">Fayl Qalqoni fon rejimida ishlayotgani haqida doimiy bildirishnoma</string>
+
+    <string name="service_notification_title">Fayl Qalqoni faol</string>
+    <string name="service_notification_text">Yuklab olinayotgan fayllar real vaqtda kuzatilmoqda</string>
+
+    <string name="alert_title_dangerous">⚠️ Xavfli fayl aniqlandi!</string>
+    <string name="alert_title_suspicious">Shubhali fayl aniqlandi</string>
+
+    <!-- Asosiy ekran -->
+    <string name="main_title">Fayl Qalqoni</string>
+    <string name="main_subtitle">Soxta rasm/hujjat ko\'rinishidagi zararli dasturlardan himoya</string>
+    <string name="btn_scan_now">Hozir skanerlash</string>
+    <string name="btn_open_quarantine">Karantin (%1$d)</string>
+    <string name="monitoring_label">Real vaqtda monitoring</string>
+    <string name="status_monitoring_on">Yoqilgan — fayllar kuzatilmoqda</string>
+    <string name="status_monitoring_off">O\'chirilgan</string>
+
+    <string name="permission_needed_title">Ruxsat kerak</string>
+    <string name="permission_all_files_message">To\'liq himoya uchun ilovaga barcha fayllarni ko\'rish ruxsatini bering (Sozlamalar oynasi ochiladi).</string>
+    <string name="btn_grant_permission">Ruxsat berish</string>
+
+    <string name="scan_progress">Skanerlanmoqda…</string>
+    <string name="scan_complete_safe">Tekshiruv tugadi: hech qanday xavf topilmadi</string>
+    <string name="scan_complete_threats">Tekshiruv tugadi: %1$d ta shubhali/xavfli element topildi</string>
+
+    <string name="empty_state_text">Hozircha hech narsa topilmadi.\n\"Hozir skanerlash\" tugmasini bosing yoki monitoringni yoqing.</string>
+
+    <string name="threat_level_dangerous">XAVFLI</string>
+    <string name="threat_level_suspicious">SHUBHALI</string>
+
+    <string name="action_quarantine">Karantinga olish</string>
+    <string name="action_delete_forever">Butunlay o\'chirish</string>
+    <string name="action_restore">Tiklash</string>
+
+    <string name="quarantine_title">Karantin</string>
+    <string name="quarantine_empty">Karantinda fayl yo\'q</string>
+    <string name="quarantine_item_subtitle">Asl manzil: %1$s</string>
+
+    <!-- Link tekshiruvi -->
+    <string name="link_check_label">Havolani tekshirish</string>
+    <string name="link_input_hint">https://…</string>
+    <string name="btn_check_link">Tekshirish</string>
+    <string name="link_input_empty">Avval linkni kiriting</string>
+    <string name="link_not_found">Ulashilgan matnda havola topilmadi</string>
+    <string name="link_checking_title">Havola tekshirilmoqda…</string>
+    <string name="link_result_dangerous">Xavfli havola!</string>
+    <string name="link_result_suspicious">Shubhali havola</string>
+    <string name="link_result_safe">Xavf topilmadi</string>
+    <string name="link_open_failed">Havolani ochib bo\'lmadi</string>
+    <string name="action_close">Yopish</string>
+    <string name="action_open_anyway">Baribir ochish</string>
+
+    <!-- Sozlamalar -->
+    <string name="settings_title">Sozlamalar</string>
+    <string name="settings_api_key_label">Google Safe Browsing API kaliti</string>
+    <string name="settings_api_key_help">Bu kalit kiritilsa, havolalar Google\'ning millionlab ma\'lum firibgarlik/zararli sayt bazasi bo\'yicha ham tekshiriladi. Kiritilmasa, faqat lokal qoidalar bilan tekshiriladi.</string>
+    <string name="settings_api_key_hint">API kalitni shu yerga joylashtiring</string>
+    <string name="settings_save">Saqlash</string>
+    <string name="settings_status_set">✅ API kalit saqlangan — Safe Browsing tekshiruvi faol</string>
+    <string name="settings_status_missing">API kalit kiritilmagan — faqat lokal qoidalar ishlaydi</string>
+    <string name="settings_how_title">API kalitni qanday olish mumkin?</string>
+    <string name="settings_how_steps">1. console.cloud.google.com saytida bepul loyiha yarating.\n2. \"APIs & Services\" → \"Library\" bo\'limidan \"Safe Browsing API\"ni toping va yoqing.\n3. \"Credentials\" bo\'limidan yangi API kalit yarating.\n4. Yaratilgan kalitni yuqoridagi maydonga joylashtirib, \"Saqlash\"ni bosing.</string>
+</resources>

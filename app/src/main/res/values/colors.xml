@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#1565C0</color>
+    <color name="brand_primary_dark">#0D47A1</color>
+    <color name="brand_accent">#26A69A</color>
+
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A1D23</color>
+    <color name="text_secondary">#5B6472</color>
+
+    <color name="level_safe">#2E7D32</color>
+    <color name="level_suspicious">#F9A825</color>
+    <color name="level_dangerous">#C62828</color>
+
+    <color name="ic_launcher_background">#0D47A1</color>
+</resources>

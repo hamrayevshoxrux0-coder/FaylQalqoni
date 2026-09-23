@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.FaylQalqoni" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary_dark</item>
+        <item name="colorAccent">@color/brand_accent</item>
+        <item name="android:statusBarColor">@color/brand_primary_dark</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- LinkCheckActivity uchun: ekranga hech narsa chizmaydi, faqat dialog ko'rsatadi -->
+    <style name="Theme.FaylQalqoni.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorAccent">@color/brand_accent</item>
+    </style>
+</resources>
