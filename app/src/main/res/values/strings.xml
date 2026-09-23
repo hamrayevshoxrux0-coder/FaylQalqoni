@@ -67,5 +67,5 @@
     <string name="settings_status_set">✅ API kalit saqlangan — Safe Browsing tekshiruvi faol</string>
     <string name="settings_status_missing">API kalit kiritilmagan — faqat lokal qoidalar ishlaydi</string>
     <string name="settings_how_title">API kalitni qanday olish mumkin?</string>
-    <string name="settings_how_steps">1. console.cloud.google.com saytida bepul loyiha yarating.\n2. \"APIs & Services\" → \"Library\" bo\'limidan \"Safe Browsing API\"ni toping va yoqing.\n3. \"Credentials\" bo\'limidan yangi API kalit yarating.\n4. Yaratilgan kalitni yuqoridagi maydonga joylashtirib, \"Saqlash\"ni bosing.</string>
+        <string name="settings_how_steps">1. console.cloud.google.com saytida bepul loyiha yarating.\n2. \"APIs &amp; Services\" → \"Library\" bo\'limidan \"Safe Browsing API\"ni toping va yoqing.\n3. \"Credentials\" bo\'limidan yangi API kalit yarating.\n4. Yaratilgan kalitni yuqoridagi maydonga joylashtirib, \"Saqlash\"ni bosing.</string>
 </resources>
