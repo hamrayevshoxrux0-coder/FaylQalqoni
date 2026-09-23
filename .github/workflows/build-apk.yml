@@ -17,9 +17,6 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - name: Android SDK o'rnatish
-        uses: android-actions/setup-android@v3
-
       - name: Kerakli SDK paketlarini o'rnatish
         run: |
           yes | sdkmanager --licenses > /dev/null || true
